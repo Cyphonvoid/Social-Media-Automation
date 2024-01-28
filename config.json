@@ -1,0 +1,29 @@
+{
+    "BotLimit" : 3,
+    "Bots": [
+      {
+        "BotID": 1,
+        "BotName": null,
+        "InputFilePath": "none",
+        "DumpFilePath": "none",
+        "CommonPassword": "DefaultPasswordNone",
+        "RunTimeActive" : false 
+      },
+      {
+        "BotID": 2,
+        "BotName": null,
+        "InputFilePath": null,
+        "DumpFilePath": null,
+        "CommonPassword": null,
+        "RunTimeActive" : false 
+      },
+      {
+        "BotID": 3,
+        "BotName": null,
+        "InputFilePath": null,
+        "DumpFilePath": null,
+        "CommonPassword": null,
+        "RunTimeActive" : false 
+      }
+    ]
+}

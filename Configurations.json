@@ -1,0 +1,29 @@
+{
+  "BotLimit": 3,
+  "Bots": [
+    {
+      "BotID": 1000,
+      "BotName": null,
+      "InputFilePath": "C:\\Users\\yasha\\Bot Automation\\InstagramAutomation\\InputFile.txt",
+      "DumpFilePath": "1",
+      "CommonPassword": "passworldlevel16",
+      "RunTimeActive": "false"
+    },
+    {
+      "BotID": 1231,
+      "BotName": null,
+      "InputFilePath": null,
+      "DumpFilePath": null,
+      "CommonPassword": null,
+      "RunTimeActive": "false"
+    },
+    {
+      "BotID": 1356,
+      "BotName": null,
+      "InputFilePath": null,
+      "DumpFilePath": null,
+      "CommonPassword": null,
+      "RunTimeActive": "false"
+    }
+  ]
+}
