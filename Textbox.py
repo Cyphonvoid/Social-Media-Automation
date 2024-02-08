@@ -1,5 +1,6 @@
 from Element import ELEMENT, UTILITY
 import re
+
 class TEXTBOX(ELEMENT):
 
     def __init__(self, x, y, w, h, type = "output"):

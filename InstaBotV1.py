@@ -63,6 +63,8 @@ def StartInstaBot():
     password = Bot["Bots"][0]["CommonPassword"]
     Accessfile = Bot["Bots"][0]["InputFilePath"]
     DumpFilePath = Bot["Bots"][0]["DumpFilePath"]
+
+    
     Bot = INSTABOT()
     Bot.SpecifyFilePath(Accessfile, DumpFilePath)
     Bot.runfile(password)
@@ -105,7 +107,6 @@ def SetPassword():
     Password = Bot["Bots"][0]["CommonPassword"]
     print(rgb(200, 200, 10, "\nCurrent Password = [" + Password + "]"))
     
-
     print(rgb(10, 200, 10, "\n\nENTER NEW PASSWORD >> "), end="")
     newpass = input()
     
