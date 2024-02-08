@@ -10,8 +10,11 @@ import os
 class INSTABOT:
 
     def __init__(self):
-        self.PATH = os.path.join(os.path.expanduser("~"), "chromedriver.exe")
-        self.browser = webdriver.Chrome(self.PATH)
+        #self.PATH = os.path.join(os.path.expanduser("~"), "chromedriver.exe")
+        self.PATH = "chromedriver.exe"
+
+        self.browser = webdriver.Chrome()
+
         self.URL = "https://www.instagram.com"
         self.Dump_Account_Exceptions_FilePath = None
         self.Access_Account_Credentials_FilePath = None
